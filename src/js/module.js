@@ -1,4 +1,29 @@
-// JavaScript can be compiled with Vite as well (which will optimize/minify the code)
-// You can even use a JavaScript file as your entry point! (such as this module.js file)
-// This note is here for future reference, we aren't actually using JavaScript in this project.
-console.log('SoTGH supports JS files');
+import { id as moduleId } from '../module.json' assert { type: 'json' };
+
+Hooks.once('init', () => {
+  console.log(`${moduleId} | Hook: init`);
+});
+
+// Hooks.on('swadePreRollAttribute', (actor, attribute, roll, modifiers, options) => {
+//   console.log(`${moduleId} | Hook: swadePreRollAttribute`);
+//   console.log(`Actor: ${actor.name}`);
+//   console.log(`Attribute: ${attribute}`);
+//   console.log(`Roll: ${roll}`);
+//   console.log(`Modifiers: ${modifiers}`);
+//   console.log(`Options: ${options}`);
+//   // modifiers.push({ label: 'My Modifier', value: 2, ignore: true });
+// });
+
+function logPreRollSkill(actor, skill, roll, modifiers, options) {
+  console.log(`${moduleId} | Hook: swadePreRollSkill`);
+  console.log(`Actor: ${actor.name}`);
+  console.log(`Skill: ${skill}`);
+  console.log(`Roll: ${roll}`);
+  console.log(`Modifiers: ${modifiers}`);
+  console.log(`Options: ${options}`);
+  // modifiers.push({ label: 'My Modifier', value: 2, ignore: true });
+}
+// Hooks.on('swadePreRollSkill', logPreRollSkill);
+
+// Import scripts that should be executed but have no exports
+import './items/abilities/goblinoid.js';

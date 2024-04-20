@@ -1,15 +1,8 @@
-2024/04/20-15:05:03.328 8b0 Recovering log #33
-2024/04/20-15:05:03.361 8b0 Delete type=0 #33
-2024/04/20-15:05:03.361 8b0 Delete type=3 #31
-2024/04/20-15:23:59.577 a24c Level-0 table #38: started
-2024/04/20-15:23:59.586 a24c Level-0 table #38: 9182 bytes OK
-2024/04/20-15:23:59.600 a24c Delete type=0 #36
-2024/04/20-15:23:59.620 a24c Manual compaction at level-0 from '!folders!OkmTVqoFHe7fvUJv' @ 72057594037927935 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at (end)
-2024/04/20-15:23:59.645 a24c Manual compaction at level-1 from '!folders!OkmTVqoFHe7fvUJv' @ 72057594037927935 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 106 : 1
-2024/04/20-15:23:59.645 a24c Compacting 1@1 + 1@2 files
-2024/04/20-15:23:59.655 a24c Generated table #39@1: 41 keys, 16789 bytes
-2024/04/20-15:23:59.655 a24c Compacted 1@1 + 1@2 files => 16789 bytes
-2024/04/20-15:23:59.669 a24c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/04/20-15:23:59.670 a24c Delete type=2 #30
-2024/04/20-15:23:59.670 a24c Delete type=2 #38
-2024/04/20-15:23:59.670 a24c Manual compaction at level-1 from '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 106 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at (end)
+2024/04/20-16:32:11.495 4094 Recovering log #67
+2024/04/20-16:32:11.530 4094 Delete type=0 #67
+2024/04/20-16:32:11.530 4094 Delete type=3 #65
+2024/04/20-16:33:31.736 a24c Level-0 table #72: started
+2024/04/20-16:33:31.736 a24c Level-0 table #72: 0 bytes OK
+2024/04/20-16:33:31.752 a24c Delete type=0 #70
+2024/04/20-16:33:31.787 a24c Manual compaction at level-0 from '!folders!OkmTVqoFHe7fvUJv' @ 72057594037927935 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at (end)
+2024/04/20-16:33:31.812 a24c Manual compaction at level-1 from '!folders!OkmTVqoFHe7fvUJv' @ 72057594037927935 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at (end)
