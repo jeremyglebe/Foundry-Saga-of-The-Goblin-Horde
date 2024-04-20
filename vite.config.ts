@@ -18,6 +18,7 @@ export default defineConfig({
       targets: [
         { src: 'src/packs', dest: 'dist' },
         { src: 'src/icons', dest: 'dist' },
+        { src: 'src/art', dest: 'dist' },
       ],
       hook: 'writeBundle',
     }),
