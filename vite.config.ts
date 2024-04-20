@@ -15,7 +15,10 @@ export default defineConfig({
   },
   plugins: [
     copy({
-      targets: [{ src: 'src/packs', dest: 'dist' }],
+      targets: [
+        { src: 'src/packs', dest: 'dist' },
+        { src: 'src/icons', dest: 'dist' },
+      ],
       hook: 'writeBundle',
     }),
     updateModuleManifestPlugin(),

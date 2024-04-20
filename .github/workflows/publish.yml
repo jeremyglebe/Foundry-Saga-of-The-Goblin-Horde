@@ -49,7 +49,7 @@ jobs:
 
       - name: Create zip archive
         working-directory: dist
-        run: zip -r ./module.zip module.json scripts/ styles/ templates/ packs/
+        run: zip -r ./module.zip module.json scripts/ styles/ templates/ packs/ icons/
 
       - run: echo "📦 The zip archive has been created."
 
