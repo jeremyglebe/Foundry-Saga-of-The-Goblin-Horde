@@ -1,0 +1,75 @@
+{
+  "id": "swade-saga-of-the-goblin-horde",
+  "title": "Saga of the Goblin Horde",
+  "description": "Zadmar's famous Saga of The Goblin Horde, converted to SWADE and set up for Foundry VTT",
+  "authors": [
+    {
+      "name": "Jeremy Glebe",
+      "email": "jeremyglebe@gmail.com"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": ["scripts/module.js"],
+  "styles": ["styles/module.css"],
+  "packs": [
+    {
+      "name": "sotgh-abilities",
+      "label": "Abilities",
+      "path": "packs/abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
+      "name": "sotgh-edges",
+      "label": "Edges",
+      "path": "packs/edges",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
+      "name": "sotgh-melee-weapons",
+      "label": "Melee Weapons",
+      "path": "packs/melee-weapons",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
+      "name": "sotgh-races",
+      "label": "Races",
+      "path": "packs/races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Saga of the Goblin Horde",
+      "sorting": "a",
+      "packs": ["sotgh-abilities", "sotgh-edges", "sotgh-melee-weapons", "sotgh-races"]
+    }
+  ]
+}
