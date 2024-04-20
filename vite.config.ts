@@ -10,22 +10,12 @@ export default defineConfig({
       output: {
         entryFileNames: 'scripts/module.js',
         format: 'es',
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name?.endsWith('.css')) {
-            return `styles/${assetInfo.name}`;
-          } else {
-            return `assets/${assetInfo.name}`;
-          }
-        },
       },
     },
   },
   plugins: [
     copy({
-      targets: [
-        { src: 'src/templates', dest: 'dist' },
-        { src: 'src/packs', dest: 'dist' },
-      ],
+      targets: [{ src: 'src/packs', dest: 'dist' }],
       hook: 'writeBundle',
     }),
     updateModuleManifestPlugin(),
