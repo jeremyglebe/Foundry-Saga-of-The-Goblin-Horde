@@ -1,20 +1,27 @@
 import { id as moduleId } from '../../../module.json' assert { type: 'json' };
 
-function gulliblePreRollSkill(actor, skill, roll, modifiers, options) {
-  console.log(`${moduleId}:gullible.js | Hook: swadePreRollSkill`);
+function lightSensitivePreRollSkill(actor, skill, roll, modifiers, options) {
+  console.log(`${moduleId}:light-sensitive.js | Hook: swadePreRollSkill`);
 
-  const isRollingCommonKnowledge = skill.name === 'Common Knowledge';
-  const isRollingIntimidation = skill.name === 'Intimidation';
-  const isRollingPersuasion = skill.name === 'Persuasion';
-  const isRollingResearch = skill.name === 'Research';
-  const isRollingThievery = skill.name === 'Thievery';
-  const isRollingApplicableSkill = isRollingCommonKnowledge || isRollingIntimidation || isRollingPersuasion || isRollingResearch || isRollingThievery;
+  const lightSensitiveHindrance = actor.itemTypes.hindrance.find((hindrance) => hindrance.name === 'Light Sensitive');
+  const hasLightSensitiveHindrance = lightSensitiveHindrance !== undefined;
 
-  const gullibleHindrance = actor.itemTypes.hindrance.find((hindrance) => hindrance.name === 'Gullible');
-  const hasGullibleHindrance = gullibleHindrance !== undefined;
-
-  if (isRollingApplicableSkill && hasGullibleHindrance) {
-    modifiers.push({ label: 'Bartering', value: -2, ignore: true });
+  if (hasLightSensitiveHindrance) {
+    modifiers.push({ label: 'Normal Lighting', value: -1, ignore: true });
+    modifiers.push({ label: 'Bright Lighting', value: -2, ignore: true });
   }
 }
-Hooks.on('swadePreRollSkill', gulliblePreRollSkill);
+Hooks.on('swadePreRollSkill', lightSensitivePreRollSkill);
+
+function lightSensitivePreAttributeRoll(actor, attribute, roll, modifiers, options) {
+  console.log(`${moduleId}:light-sensitive.js | Hook: swadePreRollAttribute`);
+
+  const lightSensitiveHindrance = actor.itemTypes.hindrance.find((hindrance) => hindrance.name === 'Light Sensitive');
+  const hasLightSensitiveHindrance = lightSensitiveHindrance !== undefined;
+
+  if (hasLightSensitiveHindrance) {
+    modifiers.push({ label: 'Normal Lighting', value: -1, ignore: true });
+    modifiers.push({ label: 'Bright Lighting', value: -2, ignore: true });
+  }
+}
+Hooks.on('swadePreRollAttribute', lightSensitivePreAttributeRoll);

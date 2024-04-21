@@ -29,3 +29,5 @@ import './items/abilities/goblinoid.js';
 import './items/edges/canitaur.js';
 import './items/hindrances/funny-voice.js';
 import './items/hindrances/gullible.js';
+import './items/hindrances/light-sensitive.js';
+import './items/hindrances/poor-taste.js';
