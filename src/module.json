@@ -40,6 +40,18 @@
       "flags": {}
     },
     {
+      "name": "sotgh-hindrances",
+      "label": "Hindrances",
+      "path": "packs/hindrances",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
       "name": "sotgh-melee-weapons",
       "label": "Melee Weapons",
       "path": "packs/melee-weapons",
@@ -68,7 +80,7 @@
     {
       "name": "Saga of the Goblin Horde",
       "sorting": "a",
-      "packs": ["sotgh-abilities", "sotgh-edges", "sotgh-melee-weapons", "sotgh-races"]
+      "packs": ["sotgh-abilities", "sotgh-edges", "sotgh-hindrances", "sotgh-melee-weapons", "sotgh-races"]
     }
   ]
 }

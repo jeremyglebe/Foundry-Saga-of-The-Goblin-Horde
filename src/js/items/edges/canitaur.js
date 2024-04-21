@@ -8,8 +8,8 @@ function canitaurPreRollSkill(actor, skill, roll, modifiers, options) {
   const hasCanitaurEdge = canitaurEdge !== undefined;
 
   if (isRollingAthletics && hasCanitaurEdge) {
-    modifiers.push({ label: 'Jumping?', value: 2, ignore: true });
-    modifiers.push({ label: 'Climbing?', value: -2, ignore: true });
+    modifiers.push({ label: 'Jumping', value: 2, ignore: true });
+    modifiers.push({ label: 'Climbing', value: -2, ignore: true });
   }
 }
 Hooks.on('swadePreRollSkill', canitaurPreRollSkill);
