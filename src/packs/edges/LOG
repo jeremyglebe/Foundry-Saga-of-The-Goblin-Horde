@@ -1,15 +1,15 @@
-2024/04/20-22:02:16.840 4094 Recovering log #113
-2024/04/20-22:02:16.876 4094 Delete type=0 #113
-2024/04/20-22:02:16.876 4094 Delete type=3 #111
-2024/04/20-22:03:21.599 a24c Level-0 table #119: started
-2024/04/20-22:03:21.612 a24c Level-0 table #119: 1270 bytes OK
-2024/04/20-22:03:21.624 a24c Delete type=0 #117
-2024/04/20-22:03:21.657 a24c Manual compaction at level-0 from '!folders!OkmTVqoFHe7fvUJv' @ 72057594037927935 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at (end)
-2024/04/20-22:03:21.657 a24c Manual compaction at level-1 from '!folders!OkmTVqoFHe7fvUJv' @ 72057594037927935 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at '!items!tzL2KYU6BXUgnkCG' @ 177 : 1
-2024/04/20-22:03:21.658 a24c Compacting 1@1 + 1@2 files
-2024/04/20-22:03:21.667 a24c Generated table #120@1: 49 keys, 22093 bytes
-2024/04/20-22:03:21.667 a24c Compacted 1@1 + 1@2 files => 22093 bytes
-2024/04/20-22:03:21.682 a24c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/04/20-22:03:21.682 a24c Delete type=2 #115
-2024/04/20-22:03:21.682 a24c Delete type=2 #119
-2024/04/20-22:03:21.691 a24c Manual compaction at level-1 from '!items!tzL2KYU6BXUgnkCG' @ 177 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at (end)
+2024/04/20-23:18:05.993 4094 Recovering log #128
+2024/04/20-23:18:06.026 4094 Delete type=0 #128
+2024/04/20-23:18:06.026 4094 Delete type=3 #126
+2024/04/20-23:19:53.374 a24c Level-0 table #134: started
+2024/04/20-23:19:53.388 a24c Level-0 table #134: 2489 bytes OK
+2024/04/20-23:19:53.399 a24c Delete type=0 #132
+2024/04/20-23:19:53.441 a24c Manual compaction at level-0 from '!folders!OkmTVqoFHe7fvUJv' @ 72057594037927935 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at (end)
+2024/04/20-23:19:53.441 a24c Manual compaction at level-1 from '!folders!OkmTVqoFHe7fvUJv' @ 72057594037927935 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at '!items!ibCuZgEwOr2hn4Ra' @ 242 : 1
+2024/04/20-23:19:53.441 a24c Compacting 1@1 + 1@2 files
+2024/04/20-23:19:53.451 a24c Generated table #135@1: 62 keys, 29656 bytes
+2024/04/20-23:19:53.451 a24c Compacted 1@1 + 1@2 files => 29656 bytes
+2024/04/20-23:19:53.466 a24c compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/20-23:19:53.467 a24c Delete type=2 #130
+2024/04/20-23:19:53.467 a24c Delete type=2 #134
+2024/04/20-23:19:53.497 a24c Manual compaction at level-1 from '!items!ibCuZgEwOr2hn4Ra' @ 242 : 1 .. '!items.effects!x0o2MrOi9DGPb3xF.3wTmkK6ZOr0sjvEP' @ 0 : 0; will stop at (end)
