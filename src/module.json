@@ -64,6 +64,18 @@
       "flags": {}
     },
     {
+      "name": "sotgh-ranged-weapons",
+      "label": "Ranged Weapons",
+      "path": "packs/range-weapons",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
       "name": "sotgh-races",
       "label": "Races",
       "path": "packs/races",
@@ -80,7 +92,14 @@
     {
       "name": "Saga of the Goblin Horde",
       "sorting": "a",
-      "packs": ["sotgh-abilities", "sotgh-edges", "sotgh-hindrances", "sotgh-melee-weapons", "sotgh-races"]
+      "packs": [
+        "sotgh-abilities",
+        "sotgh-edges",
+        "sotgh-hindrances",
+        "sotgh-melee-weapons",
+        "sotgh-ranged-weapons",
+        "sotgh-races"
+      ]
     }
   ]
 }
