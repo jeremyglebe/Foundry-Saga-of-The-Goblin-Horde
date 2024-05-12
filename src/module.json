@@ -28,6 +28,18 @@
       "flags": {}
     },
     {
+      "name": "sotgh-armor",
+      "label": "Armor",
+      "path": "packs/armor",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
       "name": "sotgh-edges",
       "label": "Edges",
       "path": "packs/edges",
@@ -64,9 +76,9 @@
       "flags": {}
     },
     {
-      "name": "sotgh-ranged-weapons",
-      "label": "Ranged Weapons",
-      "path": "packs/range-weapons",
+      "name": "sotgh-races",
+      "label": "Races",
+      "path": "packs/races",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -76,9 +88,9 @@
       "flags": {}
     },
     {
-      "name": "sotgh-races",
-      "label": "Races",
-      "path": "packs/races",
+      "name": "sotgh-ranged-weapons",
+      "label": "Ranged Weapons",
+      "path": "packs/range-weapons",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -94,11 +106,12 @@
       "sorting": "a",
       "packs": [
         "sotgh-abilities",
+        "sotgh-armor",
         "sotgh-edges",
         "sotgh-hindrances",
         "sotgh-melee-weapons",
-        "sotgh-ranged-weapons",
-        "sotgh-races"
+        "sotgh-races",
+        "sotgh-ranged-weapons"
       ]
     }
   ]
