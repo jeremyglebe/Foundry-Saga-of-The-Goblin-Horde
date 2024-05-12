@@ -1,15 +1,8 @@
-2024/05/12-03:28:03.011 261c Recovering log #47
-2024/05/12-03:28:03.043 261c Delete type=0 #47
-2024/05/12-03:28:03.043 261c Delete type=3 #45
-2024/05/12-03:48:33.116 a9b4 Level-0 table #53: started
-2024/05/12-03:48:33.128 a9b4 Level-0 table #53: 139175 bytes OK
-2024/05/12-03:48:33.141 a9b4 Delete type=0 #51
-2024/05/12-03:48:33.175 a9b4 Manual compaction at level-0 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!qYgOCokp5Fa3sRNI.poIFDMLpXFzDOnZA.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
-2024/05/12-03:48:33.200 a9b4 Manual compaction at level-1 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!qYgOCokp5Fa3sRNI.poIFDMLpXFzDOnZA.QpkvWedvIILo8DOt' @ 0 : 0; will stop at '!actors.items.effects!qYgOCokp5Fa3sRNI.rVP2yz7sRHMjWXbY.OOHCGutBU5vDawMa' @ 608 : 1
-2024/05/12-03:48:33.201 a9b4 Compacting 1@1 + 1@2 files
-2024/05/12-03:48:33.211 a9b4 Generated table #54@1: 117 keys, 70824 bytes
-2024/05/12-03:48:33.211 a9b4 Compacted 1@1 + 1@2 files => 70824 bytes
-2024/05/12-03:48:33.225 a9b4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/05/12-03:48:33.225 a9b4 Delete type=2 #49
-2024/05/12-03:48:33.225 a9b4 Delete type=2 #53
-2024/05/12-03:48:33.225 a9b4 Manual compaction at level-1 from '!actors.items.effects!qYgOCokp5Fa3sRNI.rVP2yz7sRHMjWXbY.OOHCGutBU5vDawMa' @ 608 : 1 .. '!actors.items.effects!qYgOCokp5Fa3sRNI.poIFDMLpXFzDOnZA.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
+2024/05/12-04:37:54.953 7488 Recovering log #61
+2024/05/12-04:37:54.988 7488 Delete type=0 #61
+2024/05/12-04:37:54.988 7488 Delete type=3 #59
+2024/05/12-04:40:03.200 a9b4 Level-0 table #66: started
+2024/05/12-04:40:03.200 a9b4 Level-0 table #66: 0 bytes OK
+2024/05/12-04:40:03.216 a9b4 Delete type=0 #64
+2024/05/12-04:40:03.267 a9b4 Manual compaction at level-0 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!qYgOCokp5Fa3sRNI.poIFDMLpXFzDOnZA.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
+2024/05/12-04:40:03.267 a9b4 Manual compaction at level-1 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!qYgOCokp5Fa3sRNI.poIFDMLpXFzDOnZA.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
