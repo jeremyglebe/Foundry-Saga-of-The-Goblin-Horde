@@ -20,8 +20,8 @@ function lightSensitivePreAttributeRoll(actor, attribute, roll, modifiers, optio
   const hasLightSensitiveHindrance = lightSensitiveHindrance !== undefined;
 
   if (hasLightSensitiveHindrance) {
-    modifiers.push({ label: 'Normal Lighting', value: -1, ignore: true });
-    modifiers.push({ label: 'Bright Lighting', value: -2, ignore: true });
+    modifiers.push({ label: 'Light Sensitive: Normal', value: -1, ignore: true });
+    modifiers.push({ label: 'Light Sensitive: Bright', value: -2, ignore: true });
   }
 }
 Hooks.on('swadePreRollAttribute', lightSensitivePreAttributeRoll);

@@ -25,8 +25,14 @@ function logPreRollSkill(actor, skill, roll, modifiers, options) {
 Hooks.on('swadePreRollSkill', logPreRollSkill);
 
 // Import scripts that should be executed but have no exports
+
+// Abilities
 import './items/abilities/goblinoid.js';
+import './items/abilities/outsider.js';
+import './items/abilities/proud.js';
+// Edges
 import './items/edges/canitaur.js';
+// Hindrances
 import './items/hindrances/funny-voice.js';
 import './items/hindrances/gullible.js';
 import './items/hindrances/light-sensitive.js';

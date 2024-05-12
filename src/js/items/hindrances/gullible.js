@@ -19,7 +19,7 @@ function gulliblePreAttributeRoll(actor, attribute, roll, modifiers, options) {
   const hasGullibleHindrance = gullibleHindrance !== undefined;
 
   if (hasGullibleHindrance) {
-    modifiers.push({ label: 'Bartering', value: -2, ignore: true });
+    modifiers.push({ label: 'Gullible: Bartering', value: -2, ignore: true });
   }
 }
 Hooks.on('swadePreRollAttribute', gulliblePreAttributeRoll);

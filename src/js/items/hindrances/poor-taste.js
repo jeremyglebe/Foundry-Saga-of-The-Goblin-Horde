@@ -19,7 +19,7 @@ function poorTastePreAttributeRoll(actor, attribute, roll, modifiers, options) {
   const hasPoorTasteHindrance = poorTasteHindrance !== undefined;
 
   if (hasPoorTasteHindrance) {
-    modifiers.push({ label: 'Looting or Bartering', value: -2, ignore: true });
+    modifiers.push({ label: 'Poor Taste: Looting/Bartering', value: -2, ignore: true });
   }
 }
 Hooks.on('swadePreRollAttribute', poorTastePreAttributeRoll);

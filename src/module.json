@@ -28,6 +28,18 @@
       "flags": {}
     },
     {
+      "name": "sotgh-archetypes",
+      "label": "Archetypes",
+      "path": "packs/archetypes",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
       "name": "sotgh-armor",
       "label": "Armor",
       "path": "packs/armor",
@@ -106,6 +118,7 @@
       "sorting": "a",
       "packs": [
         "sotgh-abilities",
+        "sotgh-archetypes",
         "sotgh-armor",
         "sotgh-edges",
         "sotgh-hindrances",
