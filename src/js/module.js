@@ -25,7 +25,7 @@ Hooks.once('init', () => {
 // Hooks.on('swadePreRollSkill', logPreRollSkill);
 
 // Import scripts that should be executed but have no exports
-
+import './modifiers/toggle-by-label.js';
 // Hindrances
 import './items/hindrances/funny-voice.js';
 import './items/hindrances/gullible.js';
