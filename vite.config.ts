@@ -19,6 +19,7 @@ export default defineConfig({
         { src: 'src/packs', dest: 'dist' },
         { src: 'src/icons', dest: 'dist' },
         { src: 'src/art', dest: 'dist' },
+        // { src: 'src/templates', dest: 'dist' },
       ],
       hook: 'writeBundle',
     }),
