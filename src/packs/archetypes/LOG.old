@@ -1,8 +1,15 @@
-2024/05/15-01:26:40.266 261c Recovering log #195
-2024/05/15-01:26:40.302 261c Delete type=0 #195
-2024/05/15-01:26:40.302 261c Delete type=3 #193
-2024/05/15-01:28:10.539 a9b4 Level-0 table #200: started
-2024/05/15-01:28:10.539 a9b4 Level-0 table #200: 0 bytes OK
-2024/05/15-01:28:10.556 a9b4 Delete type=0 #198
-2024/05/15-01:28:10.590 a9b4 Manual compaction at level-0 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.LsEnV96DO9tmuTRf.OOHCGutBU5vDawMa' @ 0 : 0; will stop at (end)
-2024/05/15-01:28:10.590 a9b4 Manual compaction at level-1 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.LsEnV96DO9tmuTRf.OOHCGutBU5vDawMa' @ 0 : 0; will stop at (end)
+2024/05/15-01:54:25.717 a4f4 Recovering log #203
+2024/05/15-01:54:25.752 a4f4 Delete type=0 #203
+2024/05/15-01:54:25.752 a4f4 Delete type=3 #201
+2024/05/15-02:13:48.415 a9b4 Level-0 table #209: started
+2024/05/15-02:13:48.437 a9b4 Level-0 table #209: 91479 bytes OK
+2024/05/15-02:13:48.449 a9b4 Delete type=0 #207
+2024/05/15-02:13:48.482 a9b4 Manual compaction at level-0 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.LsEnV96DO9tmuTRf.OOHCGutBU5vDawMa' @ 0 : 0; will stop at (end)
+2024/05/15-02:13:48.482 a9b4 Manual compaction at level-1 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.LsEnV96DO9tmuTRf.OOHCGutBU5vDawMa' @ 0 : 0; will stop at '!actors.items.effects!LkiUuNFHBijxaxlj.OvmY2DaWrqNKHEIr.cnMEPCKYEgyzrxSu' @ 2236 : 1
+2024/05/15-02:13:48.483 a9b4 Compacting 1@1 + 1@2 files
+2024/05/15-02:13:48.502 a9b4 Generated table #210@1: 499 keys, 297313 bytes
+2024/05/15-02:13:48.502 a9b4 Compacted 1@1 + 1@2 files => 297313 bytes
+2024/05/15-02:13:48.517 a9b4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/15-02:13:48.517 a9b4 Delete type=2 #205
+2024/05/15-02:13:48.517 a9b4 Delete type=2 #209
+2024/05/15-02:13:48.529 a9b4 Manual compaction at level-1 from '!actors.items.effects!LkiUuNFHBijxaxlj.OvmY2DaWrqNKHEIr.cnMEPCKYEgyzrxSu' @ 2236 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.LsEnV96DO9tmuTRf.OOHCGutBU5vDawMa' @ 0 : 0; will stop at (end)
