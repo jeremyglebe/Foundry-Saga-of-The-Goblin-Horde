@@ -1,4 +1,5 @@
-import { id as moduleId } from '../../../module.json' assert { type: 'json' };
+import * as jsonData from '../../../module.json' assert { type: 'json' };
+const moduleId = jsonData.id;
 
 function funnyVoicePreRollSkill(actor, skill, roll, modifiers, options) {
   console.log(`${moduleId}:funny-voice.js | Hook: swadePreRollSkill`);
