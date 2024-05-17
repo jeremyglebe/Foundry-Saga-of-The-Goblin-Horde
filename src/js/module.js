@@ -2,6 +2,7 @@ import { id as moduleId } from '../module.json' assert { type: 'json' };
 
 Hooks.once('init', () => {
   console.log(`${moduleId} | Hook: init`);
+  console.log("Hooks", Hooks);
 });
 
 // Import scripts that should be executed but have no exports
