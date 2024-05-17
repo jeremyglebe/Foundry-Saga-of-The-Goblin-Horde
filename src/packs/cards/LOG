@@ -1,0 +1,5 @@
+2024/05/17-05:40:16.032 70a0 Delete type=3 #1
+2024/05/17-05:57:16.354 1724 Level-0 table #5: started
+2024/05/17-05:57:16.389 1724 Level-0 table #5: 8944 bytes OK
+2024/05/17-05:57:16.403 1724 Delete type=0 #3
+2024/05/17-05:57:16.454 1724 Manual compaction at level-0 from '!cards!xIBKybfpUkbp2wt3' @ 72057594037927935 : 1 .. '!cards.cards!xIBKybfpUkbp2wt3.zyl5zP6XeI0Hpb5s' @ 0 : 0; will stop at (end)
