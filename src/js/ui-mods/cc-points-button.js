@@ -111,7 +111,7 @@ function calculateSkillPoints(actor) {
     const softMax = attributes[skill.attribute];
     // Get the actual die size, which is either the real skill's die or, if there is no real skill, the raw skill's die
     const finalDieSize = realSkill ? realSkill.die : skill.die;
-    console.log(skill.name, 'start', minimum, 'attribute', softMax, 'final', finalDieSize);
+    // console.log(skill.name, 'start', minimum, 'attribute', softMax, 'final', finalDieSize);
     // Accumulate the cost of the skill
     let skillCost = 0;
     let skillCounter = minimum;
@@ -127,7 +127,7 @@ function calculateSkillPoints(actor) {
       // Die sizes increase in steps of 2 (d4, d6, d8, d10, d12, etc.)
       skillCounter += 2;
     }
-    console.log(skill.name, `d${skill.die}`, skill.attribute, `d${softMax}`, 'Cost', skillCost);
+    // console.log(skill.name, `d${skill.die}`, skill.attribute, `d${softMax}`, 'Cost', skillCost);
     totalSkillPoints += skillCost;
   }
 
@@ -141,7 +141,7 @@ function isGrantedSkill(actor, skillName) {
     if (grants) {
       for (const grant of grants) {
         if (grant.name === skillName) {
-          console.log(`${skillName} is granted by ${item.name}`);
+          // console.log(`${skillName} is granted by ${item.name}`);
           return true;
         }
       }
