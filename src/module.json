@@ -13,6 +13,20 @@
     "minimum": "11",
     "verified": "11"
   },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "swade-core-rules",
+        "type": "module"
+      }
+    ]
+  },
   "esmodules": ["scripts/module.js"],
   "packs": [
     {
