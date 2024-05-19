@@ -16,4 +16,3 @@ import './items/hindrances/light-sensitive.js';
 import './items/hindrances/poor-taste.js';
 // UI Mods
 import './ui-mods/toggle-modifiers-label.js';
-import './ui-mods/cc-points-button.js';
