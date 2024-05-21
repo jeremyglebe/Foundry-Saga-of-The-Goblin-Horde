@@ -42,6 +42,18 @@
       "flags": {}
     },
     {
+      "name": "sotgh-journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
       "name": "sotgh-abilities",
       "label": "Abilities",
       "path": "packs/abilities",
@@ -144,6 +156,7 @@
       "sorting": "a",
       "packs": [
         "sotgh-cards",
+        "sotgh-journals",
         "sotgh-abilities",
         "sotgh-archetypes",
         "sotgh-armor",

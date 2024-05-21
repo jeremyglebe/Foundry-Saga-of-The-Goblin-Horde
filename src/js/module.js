@@ -3,12 +3,9 @@ const moduleId = jsonData.id;
 
 Hooks.once('init', () => {
   console.log(`${moduleId} | Hook: init`);
-  console.log('Hooks', Hooks.events);
 });
 
 // Import scripts that should be executed but have no exports
-// Debug
-import './debug/hook-event-listener.js';
 // Hindrances
 import './items/hindrances/funny-voice.js';
 import './items/hindrances/gullible.js';
