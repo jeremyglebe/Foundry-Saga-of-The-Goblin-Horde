@@ -8,7 +8,7 @@
       "email": "jeremyglebe@gmail.com"
     }
   ],
-  "version": "0.0.11",
+  "version": "0.0.13",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -29,30 +29,6 @@
   },
   "esmodules": ["scripts/module.js"],
   "packs": [
-    {
-      "name": "sotgh-cards",
-      "label": "Cards",
-      "path": "packs/cards",
-      "type": "Cards",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "swade",
-      "flags": {}
-    },
-    {
-      "name": "sotgh-journals",
-      "label": "Journals",
-      "path": "packs/journals",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "swade",
-      "flags": {}
-    },
     {
       "name": "sotgh-abilities",
       "label": "Abilities",
@@ -90,6 +66,18 @@
       "flags": {}
     },
     {
+      "name": "sotgh-cards",
+      "label": "Cards",
+      "path": "packs/cards",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
       "name": "sotgh-edges",
       "label": "Edges",
       "path": "packs/edges",
@@ -106,6 +94,18 @@
       "label": "Hindrances",
       "path": "packs/hindrances",
       "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
+      "name": "sotgh-journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -148,6 +148,18 @@
       },
       "system": "swade",
       "flags": {}
+    },
+    {
+      "name": "sotgh-scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -155,16 +167,17 @@
       "name": "Saga of the Goblin Horde",
       "sorting": "a",
       "packs": [
-        "sotgh-cards",
-        "sotgh-journals",
         "sotgh-abilities",
         "sotgh-archetypes",
         "sotgh-armor",
+        "sotgh-cards",
         "sotgh-edges",
         "sotgh-hindrances",
+        "sotgh-journals",
         "sotgh-melee-weapons",
         "sotgh-races",
-        "sotgh-ranged-weapons"
+        "sotgh-ranged-weapons",
+        "sotgh-scenes"
       ]
     }
   ]
