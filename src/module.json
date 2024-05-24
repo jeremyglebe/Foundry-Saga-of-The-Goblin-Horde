@@ -8,7 +8,7 @@
       "email": "jeremyglebe@gmail.com"
     }
   ],
-  "version": "0.0.13",
+  "version": "0.0.14",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -160,6 +160,18 @@
       },
       "system": "swade",
       "flags": {}
+    },
+    {
+      "name": "sotgh-tables",
+      "label": "Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -177,7 +189,8 @@
         "sotgh-melee-weapons",
         "sotgh-races",
         "sotgh-ranged-weapons",
-        "sotgh-scenes"
+        "sotgh-scenes",
+        "sotgh-tables"
       ]
     }
   ]
