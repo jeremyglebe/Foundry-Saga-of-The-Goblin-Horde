@@ -1,3 +1,8 @@
-2024/05/24-19:30:39.050 9fcc Recovering log #566
-2024/05/24-19:30:39.078 9fcc Delete type=0 #566
-2024/05/24-19:30:39.078 9fcc Delete type=3 #564
+2024/05/28-16:21:25.211 4fc4 Recovering log #570
+2024/05/28-16:21:25.242 4fc4 Delete type=0 #570
+2024/05/28-16:21:25.243 4fc4 Delete type=3 #569
+2024/05/28-17:51:21.242 2638 Level-0 table #574: started
+2024/05/28-17:51:21.242 2638 Level-0 table #574: 0 bytes OK
+2024/05/28-17:51:21.258 2638 Delete type=0 #572
+2024/05/28-17:51:21.293 2638 Manual compaction at level-0 from '!folders!KtEWW0e5q9wBFFFe' @ 72057594037927935 : 1 .. '!items!wl3az8CFoZqlnzhR' @ 0 : 0; will stop at (end)
+2024/05/28-17:51:21.293 2638 Manual compaction at level-1 from '!folders!KtEWW0e5q9wBFFFe' @ 72057594037927935 : 1 .. '!items!wl3az8CFoZqlnzhR' @ 0 : 0; will stop at (end)
