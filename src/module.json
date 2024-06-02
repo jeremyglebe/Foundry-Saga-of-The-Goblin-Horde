@@ -126,6 +126,18 @@
       "flags": {}
     },
     {
+      "name": "sotgh-knick-knacks",
+      "label": "Knick Knacks",
+      "path": "packs/knick-knacks",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
       "name": "sotgh-melee-weapons",
       "label": "Melee Weapons",
       "path": "packs/melee-weapons",
@@ -199,6 +211,7 @@
         "sotgh-edges",
         "sotgh-hindrances",
         "sotgh-journals",
+        "sotgh-knick-knacks",
         "sotgh-melee-weapons",
         "sotgh-races",
         "sotgh-ranged-weapons",
