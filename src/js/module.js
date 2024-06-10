@@ -7,9 +7,6 @@ Hooks.once('init', () => {
 
 // Import scripts that should be executed but have no exports
 // Hindrances
-import './items/hindrances/funny-voice.js';
 import './items/hindrances/gullible.js';
-import './items/hindrances/light-sensitive.js';
-import './items/hindrances/poor-taste.js';
 // UI Mods
 import './ui-mods/toggle-modifiers-label.js';
