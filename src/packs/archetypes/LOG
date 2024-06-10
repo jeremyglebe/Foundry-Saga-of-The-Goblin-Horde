@@ -1,15 +1,8 @@
-2024/06/10-01:46:41.449 a30c Recovering log #808
-2024/06/10-01:46:41.483 a30c Delete type=0 #808
-2024/06/10-01:46:41.483 a30c Delete type=3 #806
-2024/06/10-01:49:21.512 7d6c Level-0 table #814: started
-2024/06/10-01:49:21.524 7d6c Level-0 table #814: 82313 bytes OK
-2024/06/10-01:49:21.537 7d6c Delete type=0 #812
-2024/06/10-01:49:21.537 7d6c Manual compaction at level-0 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
-2024/06/10-01:49:21.537 7d6c Manual compaction at level-1 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at '!actors.items.effects!qYgOCokp5Fa3sRNI.dwMPTRqvqFIIHWR3.qXdZADLjjlNfE2KF' @ 5401 : 1
-2024/06/10-01:49:21.539 7d6c Compacting 1@1 + 1@2 files
-2024/06/10-01:49:21.590 7d6c Generated table #815@1: 566 keys, 554645 bytes
-2024/06/10-01:49:21.590 7d6c Compacted 1@1 + 1@2 files => 554645 bytes
-2024/06/10-01:49:21.607 7d6c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/06/10-01:49:21.607 7d6c Delete type=2 #810
-2024/06/10-01:49:21.607 7d6c Delete type=2 #814
-2024/06/10-01:49:21.657 7d6c Manual compaction at level-1 from '!actors.items.effects!qYgOCokp5Fa3sRNI.dwMPTRqvqFIIHWR3.qXdZADLjjlNfE2KF' @ 5401 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
+2024/06/10-01:50:57.624 6d04 Recovering log #813
+2024/06/10-01:50:57.655 6d04 Delete type=0 #813
+2024/06/10-01:50:57.655 6d04 Delete type=3 #811
+2024/06/10-01:54:37.827 7d6c Level-0 table #819: started
+2024/06/10-01:54:37.827 7d6c Level-0 table #819: 0 bytes OK
+2024/06/10-01:54:37.844 7d6c Delete type=0 #817
+2024/06/10-01:54:37.878 7d6c Manual compaction at level-0 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
+2024/06/10-01:54:37.878 7d6c Manual compaction at level-1 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)

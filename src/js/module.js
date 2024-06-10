@@ -6,7 +6,5 @@ Hooks.once('init', () => {
 });
 
 // Import scripts that should be executed but have no exports
-// Hindrances
-import './items/hindrances/gullible.js';
 // UI Mods
 import './ui-mods/toggle-modifiers-label.js';
