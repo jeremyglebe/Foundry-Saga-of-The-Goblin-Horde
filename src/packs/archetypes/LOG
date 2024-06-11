@@ -1,15 +1,8 @@
-2024/06/11-00:54:00.493 a30c Recovering log #838
-2024/06/11-00:54:00.526 a30c Delete type=0 #838
-2024/06/11-00:54:00.526 a30c Delete type=3 #836
-2024/06/11-01:11:14.395 7d6c Level-0 table #843: started
-2024/06/11-01:11:14.409 7d6c Level-0 table #843: 76114 bytes OK
-2024/06/11-01:11:14.420 7d6c Delete type=0 #841
-2024/06/11-01:11:14.437 7d6c Manual compaction at level-0 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
-2024/06/11-01:11:14.437 7d6c Manual compaction at level-1 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at '!actors!saOiv7IdAxdv9WWC' @ 5462 : 1
-2024/06/11-01:11:14.438 7d6c Compacting 1@1 + 1@2 files
-2024/06/11-01:11:14.479 7d6c Generated table #844@1: 566 keys, 555182 bytes
-2024/06/11-01:11:14.479 7d6c Compacted 1@1 + 1@2 files => 555182 bytes
-2024/06/11-01:11:14.489 7d6c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/06/11-01:11:14.489 7d6c Delete type=2 #815
-2024/06/11-01:11:14.490 7d6c Delete type=2 #843
-2024/06/11-01:11:14.540 7d6c Manual compaction at level-1 from '!actors!saOiv7IdAxdv9WWC' @ 5462 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
+2024/06/11-17:55:11.814 81d8 Recovering log #927
+2024/06/11-17:55:11.846 81d8 Delete type=0 #927
+2024/06/11-17:55:11.847 81d8 Delete type=3 #925
+2024/06/11-17:57:44.688 7d6c Level-0 table #932: started
+2024/06/11-17:57:44.688 7d6c Level-0 table #932: 0 bytes OK
+2024/06/11-17:57:44.705 7d6c Delete type=0 #930
+2024/06/11-17:57:44.739 7d6c Manual compaction at level-0 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
+2024/06/11-17:57:44.739 7d6c Manual compaction at level-1 from '!actors!14SoKym8krlbcj1Z' @ 72057594037927935 : 1 .. '!actors.items.effects!saOiv7IdAxdv9WWC.iGAhSTf5u3BNDJg4.QpkvWedvIILo8DOt' @ 0 : 0; will stop at (end)
