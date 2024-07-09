@@ -8,3 +8,5 @@ Hooks.once('init', () => {
 // Import scripts that should be executed but have no exports
 // UI Mods
 import './ui-mods/toggle-modifiers-label.js';
+// Effects
+import './effects/barghest.js';

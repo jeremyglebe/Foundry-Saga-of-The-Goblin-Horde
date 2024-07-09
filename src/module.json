@@ -8,7 +8,7 @@
       "email": "jeremyglebe@gmail.com"
     }
   ],
-  "version": "0.0.21",
+  "version": "0.0.22",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -150,6 +150,18 @@
       "flags": {}
     },
     {
+      "name": "sotgh-macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    },
+    {
       "name": "sotgh-melee-weapons",
       "label": "Melee Weapons",
       "path": "packs/melee-weapons",
@@ -225,6 +237,7 @@
         "sotgh-hindrances",
         "sotgh-journals",
         "sotgh-knick-knacks",
+        "sotgh-macros",
         "sotgh-melee-weapons",
         "sotgh-races",
         "sotgh-ranged-weapons",
