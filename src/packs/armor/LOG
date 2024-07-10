@@ -1,8 +1,8 @@
-2024/07/09-23:25:57.783 edcc Recovering log #990
-2024/07/09-23:25:57.813 edcc Delete type=0 #990
-2024/07/09-23:25:57.813 edcc Delete type=3 #988
-2024/07/09-23:38:59.045 ceec Level-0 table #995: started
-2024/07/09-23:38:59.046 ceec Level-0 table #995: 0 bytes OK
-2024/07/09-23:38:59.062 ceec Delete type=0 #993
-2024/07/09-23:38:59.062 ceec Manual compaction at level-0 from '!folders!d67fKysBnSdNQS5w' @ 72057594037927935 : 1 .. '!items.effects!UkbybPkuA5VAmatg.l6K6GA7pygtG9sEe' @ 0 : 0; will stop at (end)
-2024/07/09-23:38:59.062 ceec Manual compaction at level-1 from '!folders!d67fKysBnSdNQS5w' @ 72057594037927935 : 1 .. '!items.effects!UkbybPkuA5VAmatg.l6K6GA7pygtG9sEe' @ 0 : 0; will stop at (end)
+2024/07/09-23:47:54.369 d24c Recovering log #998
+2024/07/09-23:47:54.399 d24c Delete type=0 #998
+2024/07/09-23:47:54.399 d24c Delete type=3 #996
+2024/07/09-23:50:47.421 ceec Level-0 table #1003: started
+2024/07/09-23:50:47.421 ceec Level-0 table #1003: 0 bytes OK
+2024/07/09-23:50:47.455 ceec Delete type=0 #1001
+2024/07/09-23:50:47.488 ceec Manual compaction at level-0 from '!folders!d67fKysBnSdNQS5w' @ 72057594037927935 : 1 .. '!items.effects!UkbybPkuA5VAmatg.l6K6GA7pygtG9sEe' @ 0 : 0; will stop at (end)
+2024/07/09-23:50:47.505 ceec Manual compaction at level-1 from '!folders!d67fKysBnSdNQS5w' @ 72057594037927935 : 1 .. '!items.effects!UkbybPkuA5VAmatg.l6K6GA7pygtG9sEe' @ 0 : 0; will stop at (end)

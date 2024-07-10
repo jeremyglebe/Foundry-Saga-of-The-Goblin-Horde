@@ -1,7 +1,7 @@
-2024/07/09-23:25:08.805 edcc Recovering log #494
-2024/07/09-23:25:08.840 edcc Delete type=0 #494
-2024/07/09-23:25:08.840 edcc Delete type=3 #492
-2024/07/09-23:25:52.545 ceec Level-0 table #499: started
-2024/07/09-23:25:52.545 ceec Level-0 table #499: 0 bytes OK
-2024/07/09-23:25:52.562 ceec Delete type=0 #497
-2024/07/09-23:25:52.595 ceec Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)
+2024/07/09-23:44:24.458 d24c Recovering log #502
+2024/07/09-23:44:24.491 d24c Delete type=0 #502
+2024/07/09-23:44:24.491 d24c Delete type=3 #500
+2024/07/09-23:47:47.892 ceec Level-0 table #507: started
+2024/07/09-23:47:47.892 ceec Level-0 table #507: 0 bytes OK
+2024/07/09-23:47:47.909 ceec Delete type=0 #505
+2024/07/09-23:47:47.926 ceec Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)

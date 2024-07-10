@@ -4,7 +4,6 @@ const moduleId = jsonData.id;
 // Function to run when updateActiveEffect is called
 async function barghestUpdateActiveEffect(effect, toggleData, _, activatingUserId) {
   console.log(`${moduleId}:barghest.js | Hook: updateActiveEffect`);
-  console.log(arguments);
   const thisUserId = game.userId;
   const { disabled } = toggleData;
 
