@@ -1,8 +1,3 @@
-2024/07/10-01:15:46.029 d24c Recovering log #1389
-2024/07/10-01:15:46.064 d24c Delete type=0 #1389
-2024/07/10-01:15:46.064 d24c Delete type=3 #1387
-2024/07/10-01:21:09.046 ceec Level-0 table #1394: started
-2024/07/10-01:21:09.046 ceec Level-0 table #1394: 0 bytes OK
-2024/07/10-01:21:09.088 ceec Delete type=0 #1392
-2024/07/10-01:21:09.148 ceec Manual compaction at level-0 from '!folders!ONwxgA8mmWEx2VQx' @ 72057594037927935 : 1 .. '!items.effects!q7rn6Fx7xs4Hf9tI.cnMEPCKYEgyzrxSu' @ 0 : 0; will stop at (end)
-2024/07/10-01:21:09.148 ceec Manual compaction at level-1 from '!folders!ONwxgA8mmWEx2VQx' @ 72057594037927935 : 1 .. '!items.effects!q7rn6Fx7xs4Hf9tI.cnMEPCKYEgyzrxSu' @ 0 : 0; will stop at (end)
+2024/07/10-01:22:45.030 edcc Recovering log #1397
+2024/07/10-01:22:45.064 edcc Delete type=0 #1397
+2024/07/10-01:22:45.064 edcc Delete type=3 #1395

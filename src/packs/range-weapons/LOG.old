@@ -1,8 +1,3 @@
-2024/07/10-01:15:46.584 edcc Recovering log #1092
-2024/07/10-01:15:46.618 edcc Delete type=0 #1092
-2024/07/10-01:15:46.618 edcc Delete type=3 #1090
-2024/07/10-01:21:09.417 ceec Level-0 table #1097: started
-2024/07/10-01:21:09.417 ceec Level-0 table #1097: 0 bytes OK
-2024/07/10-01:21:09.434 ceec Delete type=0 #1095
-2024/07/10-01:21:09.451 ceec Manual compaction at level-0 from '!folders!HJY0RP3uU5zgJH09' @ 72057594037927935 : 1 .. '!items!wl3az8CFoZqlnzhR' @ 0 : 0; will stop at (end)
-2024/07/10-01:21:09.451 ceec Manual compaction at level-1 from '!folders!HJY0RP3uU5zgJH09' @ 72057594037927935 : 1 .. '!items!wl3az8CFoZqlnzhR' @ 0 : 0; will stop at (end)
+2024/07/10-01:22:45.593 edcc Recovering log #1100
+2024/07/10-01:22:45.626 edcc Delete type=0 #1100
+2024/07/10-01:22:45.626 edcc Delete type=3 #1098

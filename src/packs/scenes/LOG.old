@@ -1,8 +1,3 @@
-2024/07/10-01:15:46.625 db50 Recovering log #575
-2024/07/10-01:15:46.660 db50 Delete type=0 #575
-2024/07/10-01:15:46.660 db50 Delete type=3 #573
-2024/07/10-01:21:09.434 ceec Level-0 table #580: started
-2024/07/10-01:21:09.434 ceec Level-0 table #580: 0 bytes OK
-2024/07/10-01:21:09.450 ceec Delete type=0 #578
-2024/07/10-01:21:09.451 ceec Manual compaction at level-0 from '!folders!x7HnfslU6jCzOrMw' @ 72057594037927935 : 1 .. '!scenes!ZIhetzMUjeGo5JO0' @ 0 : 0; will stop at (end)
-2024/07/10-01:21:09.451 ceec Manual compaction at level-1 from '!folders!x7HnfslU6jCzOrMw' @ 72057594037927935 : 1 .. '!scenes!ZIhetzMUjeGo5JO0' @ 0 : 0; will stop at (end)
+2024/07/10-01:22:45.637 db50 Recovering log #583
+2024/07/10-01:22:45.668 db50 Delete type=0 #583
+2024/07/10-01:22:45.669 db50 Delete type=3 #581
