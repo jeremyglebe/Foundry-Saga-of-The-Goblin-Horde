@@ -1,3 +1,8 @@
-2024/07/10-01:22:45.593 edcc Recovering log #1100
-2024/07/10-01:22:45.626 edcc Delete type=0 #1100
-2024/07/10-01:22:45.626 edcc Delete type=3 #1098
+2024/07/23-17:24:57.731 1340 Recovering log #1114
+2024/07/23-17:24:57.763 1340 Delete type=0 #1114
+2024/07/23-17:24:57.763 1340 Delete type=3 #1112
+2024/07/23-17:27:46.449 6018 Level-0 table #1119: started
+2024/07/23-17:27:46.449 6018 Level-0 table #1119: 0 bytes OK
+2024/07/23-17:27:46.466 6018 Delete type=0 #1117
+2024/07/23-17:27:46.482 6018 Manual compaction at level-0 from '!folders!HJY0RP3uU5zgJH09' @ 72057594037927935 : 1 .. '!items!wl3az8CFoZqlnzhR' @ 0 : 0; will stop at (end)
+2024/07/23-17:27:46.482 6018 Manual compaction at level-1 from '!folders!HJY0RP3uU5zgJH09' @ 72057594037927935 : 1 .. '!items!wl3az8CFoZqlnzhR' @ 0 : 0; will stop at (end)
