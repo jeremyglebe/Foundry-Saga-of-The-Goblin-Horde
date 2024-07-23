@@ -34,13 +34,20 @@ async function barghestToggleHybridForm(effect, disabled) {
 
   if (!disabled) {
     await actor.createEmbeddedDocuments('Item', [item]);
-    actor.items.find((i) => i.system.swid === 'barghest-hybrid-form-claws-fangs').system.favorite = favorite;
+    await actor.updateEmbeddedDocuments('Item', [
+      {
+        '_id': actor.items.find((i) => i.system.swid === 'barghest-hybrid-form-claws-fangs').id,
+        'data.favorite': favorite,
+      },
+    ]);
   } else {
     const itemToDelete = actor.items.find((i) => i.system.swid === itemSwid);
     if (itemToDelete) {
       await actor.deleteEmbeddedDocuments('Item', [itemToDelete.id]);
     }
   }
+
+  await barghestToggleThickFur(actor, disabled);
 }
 
 // Function to run when the Wolf Form toggle is updated
@@ -55,12 +62,36 @@ async function barghestToggleWolfForm(effect, disabled) {
 
   if (!disabled) {
     await actor.createEmbeddedDocuments('Item', [item]);
-    actor.items.find((i) => i.system.swid === 'go-for-the-throat').system.favorite = favorite;
-    actor.items.find((i) => i.system.swid === 'barghest-wolf-form-bite').system.favorite = favorite;
+    await actor.updateEmbeddedDocuments('Item', [
+      {
+        '_id': actor.items.find((i) => i.system.swid === 'go-for-the-throat').id,
+        'data.favorite': favorite,
+      },
+    ]);
+    await actor.updateEmbeddedDocuments('Item', [
+      {
+        '_id': actor.items.find((i) => i.system.swid === 'barghest-wolf-form-bite').id,
+        'data.favorite': favorite,
+      },
+    ]);
   } else {
     const itemToDelete = actor.items.find((i) => i.system.swid === itemSwid);
     if (itemToDelete) {
       await actor.deleteEmbeddedDocuments('Item', [itemToDelete.id]);
+    }
+  }
+
+  await barghestToggleThickFur(actor, disabled);
+}
+
+// Function that, when toggling either form, will check if the actor has the "Thick Fur" edge and toggle its active effect as well
+async function barghestToggleThickFur(actor, disabled) {
+  const thickFur = actor.items.find((i) => i.system.swid === 'thick-fur');
+  if (thickFur) {
+    const thickFurEffect = thickFur.effects.find((e) => e.name === 'Effect: Thick Fur');
+    if (thickFurEffect) {
+      const { id } = thickFurEffect;
+      await thickFur.updateEmbeddedDocuments('ActiveEffect', [{ _id: id, disabled }]);
     }
   }
 }

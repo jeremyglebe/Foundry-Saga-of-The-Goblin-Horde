@@ -1,8 +1,8 @@
-2024/07/09-23:47:54.699 d24c Recovering log #90
-2024/07/09-23:47:54.734 d24c Delete type=0 #90
-2024/07/09-23:47:54.734 d24c Delete type=3 #88
-2024/07/09-23:50:47.622 ceec Level-0 table #95: started
-2024/07/09-23:50:47.623 ceec Level-0 table #95: 0 bytes OK
-2024/07/09-23:50:47.639 ceec Delete type=0 #93
-2024/07/09-23:50:47.672 ceec Manual compaction at level-0 from '!folders!Xs9xv4BFMqabMg24' @ 72057594037927935 : 1 .. '!macros!urqfdGmOcOZvFCs8' @ 0 : 0; will stop at (end)
-2024/07/09-23:50:47.672 ceec Manual compaction at level-1 from '!folders!Xs9xv4BFMqabMg24' @ 72057594037927935 : 1 .. '!macros!urqfdGmOcOZvFCs8' @ 0 : 0; will stop at (end)
+2024/07/10-01:21:21.248 db50 Recovering log #174
+2024/07/10-01:21:21.282 db50 Delete type=0 #174
+2024/07/10-01:21:21.282 db50 Delete type=3 #172
+2024/07/10-01:22:39.136 ceec Level-0 table #179: started
+2024/07/10-01:22:39.136 ceec Level-0 table #179: 0 bytes OK
+2024/07/10-01:22:39.153 ceec Delete type=0 #177
+2024/07/10-01:22:39.153 ceec Manual compaction at level-0 from '!folders!Xs9xv4BFMqabMg24' @ 72057594037927935 : 1 .. '!macros!urqfdGmOcOZvFCs8' @ 0 : 0; will stop at (end)
+2024/07/10-01:22:39.153 ceec Manual compaction at level-1 from '!folders!Xs9xv4BFMqabMg24' @ 72057594037927935 : 1 .. '!macros!urqfdGmOcOZvFCs8' @ 0 : 0; will stop at (end)
