@@ -37,7 +37,7 @@ async function barghestToggleHybridForm(effect, disabled) {
     await actor.updateEmbeddedDocuments('Item', [
       {
         '_id': actor.items.find((i) => i.system.swid === 'barghest-hybrid-form-claws-fangs').id,
-        'data.favorite': favorite,
+        'system.favorite': favorite,
       },
     ]);
   } else {
@@ -65,13 +65,13 @@ async function barghestToggleWolfForm(effect, disabled) {
     await actor.updateEmbeddedDocuments('Item', [
       {
         '_id': actor.items.find((i) => i.system.swid === 'go-for-the-throat').id,
-        'data.favorite': favorite,
+        'system.favorite': favorite,
       },
     ]);
     await actor.updateEmbeddedDocuments('Item', [
       {
         '_id': actor.items.find((i) => i.system.swid === 'barghest-wolf-form-bite').id,
-        'data.favorite': favorite,
+        'system.favorite': favorite,
       },
     ]);
   } else {
